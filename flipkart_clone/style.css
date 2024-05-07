@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav {
+    z-index: 5;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+nav ul{
+    height: 80px;
+    width: 100vw;
+    background-color: white;
+    color: rgb(10, 10, 10);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    font-family: "Instrument Serif", serif;
+    font-weight: 800;
+    font-size:x-large;
+    font-style: italic;
+    text-decoration: none;
+
+}
+.brand{
+    color: 	#1F74BA;
+    font-size:xx-large;
+}
+
+.search-bar{
+    width: 500px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: aliceblue;
+    font-size: large;
+}
+
+.btn{
+    height: 48px;
+    width: 50px;
+}
+.login button{
+    border: none;
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    font-size: large;
+}
+sub{
+    font-size: small;
+    vertical-align: sub;
+}
+
+
+.bg-1{
+    background-image: url(./assets/flipkart1.webp);
+}
+.bg-2{
+    background-image: url(./assets/flipkart2.webp);
+}
+.bg-3{
+    background-image: url(./assets/flipkart3.webp);
+}
+.carousel-img{
+    width: 100vw;
+    height: 40vh;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel{
+    margin: 10px;
+}
+
+.title1{
+    text-align:start;
+    margin: 20px;
+    font-size:x-large;
+    font-weight: bold;
+}
+.all-cards{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+    justify-content:space-between;
+    overflow-x: scroll;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.card img{
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+} 
+.card3 img{
+    width: 200px;
+        margin-left: 5px;
+        height: auto;
+        margin-top: 60px;
+}
+.card4 img{
+    margin-top: 100px;
+    height: 100px;
+    margin-right: 10px;
+    left: 0px;
+    width: 180px;
+} 
+.card4 h5,p{
+    bottom: 10px;
+}
+
+
+
+
+.card-title, .card-text{
+    text-align: center;
+}
+footer{
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
